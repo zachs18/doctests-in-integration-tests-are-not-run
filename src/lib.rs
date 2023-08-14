@@ -6,4 +6,4 @@ fn this_will_run() {
 /// ```compile_fail
 /// compile_error!("This doctest will correctly fail");
 /// ```
-pub struct ThisStructDoctestWillNotRun;
+pub struct ThisStructDoctestWillRun;
